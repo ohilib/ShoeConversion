@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func convertButtonPressed(sender: UIButton) {
+        // test comments
         let sizeFromTextField = mensShoeSizeTextField.text
         let numberFromTextField = sizeFromTextField.toInt()
         var integerFromTextField = numberFromTextField!
